@@ -11,7 +11,8 @@ from flask import Flask, request
 USER_ID = '38378503'
 CLIENT_ID = '4c0441ed25b917cf01d8cccf9efd6b4def85e855e30bc66f91934cdb7bf5f848'
 CLIENT_SECRET = 'e02317295a3b34119200877eeab1ac727cd06f8048c7855aab8a77ac07511943'
-REDIRECT_URI = 'http://localhost:5000/callback'
+# REDIRECT_URI = 'http://localhost:5000/callback'
+REDIRECT_URI = 'https://healthapp-7kifcu2bipx7vdwrgkpemh.streamlit.app/callback'
 TOKENS_FILE = 'withings_tokens.json'
 
 # Ensure the tokens file is in the saved_data directory
@@ -118,19 +119,9 @@ def generate_auth_url():
 #     return auth_url
 
 if __name__ == '__main__':
-    # Start the Flask server in a separate thread
-    server = start_server()
-
-    # Generate the authorization URL and open it in the browser
+    # For deployment on Streamlit Cloud, do not start a separate Flask server.
+    # Instead, just generate and print the authorization URL.
     auth_url = generate_auth_url()
-    print("Opening the authorization URL in your browser...")
-    webbrowser.open(auth_url)
-
-    print("Waiting for authorization...")
-    # Wait for the authentication to complete
-    auth_complete.wait()
-
-    print("Authentication process completed.")
-
-    # Wait for the server thread to finish
-    server.join()
+    print("Authorization URL:", auth_url)
+    print("Please visit the URL above to authorize the app.")
+    # On Streamlit Cloud, you will need to capture the authorization code from the URL parameters.
