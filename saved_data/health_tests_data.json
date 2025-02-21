@@ -1,0 +1,981 @@
+[
+    {
+        "date": "2022-01-31",
+        "tests": {
+            "Hématies": {
+                "value": 5.6,
+                "unit": "Tera/L",
+                "reference_range": [
+                    4.25,
+                    5.79
+                ]
+            },
+            "Hémoglobine": {
+                "value": 15.4,
+                "unit": "g/dL",
+                "reference_range": [
+                    13.4,
+                    16.7
+                ]
+            },
+            "Hématocrite": {
+                "value": 15.4,
+                "unit": "g/dL",
+                "reference_range": [
+                    39.2,
+                    48.6
+                ]
+            },
+            "V.G.M.": {
+                "value": 81.4,
+                "unit": "fl",
+                "reference_range": [
+                    78.0,
+                    97.0
+                ]
+            },
+            "T.C.M.H.": {
+                "value": 27.5,
+                "unit": "pg",
+                "reference_range": [
+                    26.3,
+                    32.8
+                ]
+            },
+            "C.C.M.H.": {
+                "value": 33.8,
+                "unit": "g/dL",
+                "reference_range": [
+                    32.4,
+                    36.3
+                ]
+            },
+            "Leucocytes": {
+                "value": 5.09,
+                "unit": "Giga/L",
+                "reference_range": [
+                    4.05,
+                    11.0
+                ]
+            },
+            "Poly. neutrophiles": {
+                "value": 51.8,
+                "unit": "%",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Poly. éosinophiles": {
+                "value": 1.4,
+                "unit": "%",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Poly. basophiles": {
+                "value": 0.4,
+                "unit": "%",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Lymphocytes": {
+                "value": 38.9,
+                "unit": "%",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Monocytes": {
+                "value": 7.5,
+                "unit": "%",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Plaquettes": {
+                "value": 224,
+                "unit": "Giga/L",
+                "reference_range": [
+                    161,
+                    398
+                ]
+            },
+            "Protéine C réactive": {
+                "value": 4.3,
+                "unit": "mg/l",
+                "reference_range": [
+                    null,
+                    5
+                ]
+            },
+            "25 OH VITAMINE D (D2/D3)": {
+                "value": 14,
+                "unit": "ng/ml",
+                "reference_range": [
+                    30,
+                    60
+                ]
+            },
+            "Protéinurie": {
+                "value": 0.26,
+                "unit": "g/L",
+                "reference_range": [
+                    null,
+                    0.14
+                ]
+            },
+            "Sodium": {
+                "value": 141.0,
+                "unit": "mmol/L",
+                "reference_range": [
+                    136,
+                    145
+                ]
+            },
+            "Glycosurie": {
+                "value": 0.29,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    0.83
+                ]
+            }
+        }
+    },
+    {
+        "date": "2022-12-29",
+        "tests": {
+            "Sodium": {
+                "value": 139.0,
+                "unit": "mmol/L",
+                "reference_range": [
+                    136,
+                    145
+                ]
+            },
+            "Potassium": {
+                "value": 4.1,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.5,
+                    5.1
+                ]
+            },
+            "Créatinine": {
+                "value": 99.0,
+                "unit": "μmol/L",
+                "reference_range": [
+                    64,
+                    104
+                ]
+            },
+            "DFG selon l'équation CKD-EPI": {
+                "value": 86.0,
+                "unit": "ml/mn/1.73m²",
+                "reference_range": [
+                    60,
+                    null
+                ]
+            },
+            "Transaminase ASAT (S.G.O.T)": {
+                "value": 31.0,
+                "unit": "U/L",
+                "reference_range": [
+                    5,
+                    34
+                ]
+            },
+            "Transaminase ALAT (S.G.P.T)": {
+                "value": 52.0,
+                "unit": "U/L",
+                "reference_range": [
+                    null,
+                    55
+                ]
+            },
+            "GGT(gamma-glutamyl-transférase)": {
+                "value": 27.0,
+                "unit": "UI/L",
+                "reference_range": [
+                    12,
+                    64
+                ]
+            }
+        }
+    },
+    {
+        "date": "2022-01-31",
+        "tests": {
+            "Potassium": {
+                "value": 4.2,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.5,
+                    5.1
+                ]
+            },
+            "Albumine": {
+                "value": 42.0,
+                "unit": "g/L",
+                "reference_range": [
+                    35,
+                    50
+                ]
+            },
+            "Calcium": {
+                "value": 2.37,
+                "unit": "mmol/L",
+                "reference_range": [
+                    2.1,
+                    2.55
+                ]
+            },
+            "Calcium corrigé": {
+                "value": 2.32,
+                "unit": "mmol/L",
+                "reference_range": [
+                    2.1,
+                    2.55
+                ]
+            },
+            "Créatinine": {
+                "value": 69.0,
+                "unit": "μmol/L",
+                "reference_range": [
+                    64,
+                    104
+                ]
+            },
+            "DFG selon l'équation CKD-EPI": {
+                "value": 119.0,
+                "unit": "ml/mn/1.73m²",
+                "reference_range": [
+                    60,
+                    null
+                ]
+            },
+            "DFG selon l'équation MDRD": {
+                "value": 115.0,
+                "unit": "ml/mn/1.73m²",
+                "reference_range": [
+                    60,
+                    null
+                ]
+            },
+            "Transaminase ASAT (S.G.O.T)": {
+                "value": 28.0,
+                "unit": "U/L",
+                "reference_range": [
+                    5,
+                    34
+                ]
+            },
+            "Transaminase ALAT (S.G.P.T)": {
+                "value": 47.0,
+                "unit": "U/L",
+                "reference_range": [
+                    null,
+                    55
+                ]
+            },
+            "Phosphatases alcalines": {
+                "value": 62.0,
+                "unit": "U/L",
+                "reference_range": [
+                    40,
+                    150
+                ]
+            },
+            "GGT(gamma-glutamyl-transférase)": {
+                "value": 22.0,
+                "unit": "UI/L",
+                "reference_range": [
+                    12,
+                    64
+                ]
+            },
+            "Glycémie à jeun": {
+                "value": 4.87,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.9,
+                    6.1
+                ]
+            },
+            "Cholestérol total": {
+                "value": 4.97,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    5.18
+                ]
+            },
+            "Cholestérol H.D.L.": {
+                "value": 1.21,
+                "unit": "mmol/L",
+                "reference_range": [
+                    1.04,
+                    null
+                ]
+            },
+            "Cholestérol L.D.L.": {
+                "value": 2.99,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Triglycérides": {
+                "value": 1.7,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    1.7
+                ]
+            },
+            "Ferritine": {
+                "value": 156.0,
+                "unit": "μg/L",
+                "reference_range": [
+                    22,
+                    275
+                ]
+            }
+        }
+    },
+    {
+        "date": "2023-08-14",
+        "tests": {
+            "Hématies": {
+                "value": 5.55,
+                "unit": "Tera/L",
+                "reference_range": [
+                    4.25,
+                    5.79
+                ]
+            },
+            "Hémoglobine": {
+                "value": 14.9,
+                "unit": "g/dL",
+                "reference_range": [
+                    13.4,
+                    16.7
+                ]
+            },
+            "Hématocrite": {
+                "value": 45.1,
+                "unit": "%",
+                "reference_range": [
+                    39.2,
+                    48.6
+                ]
+            },
+            "V.G.M.": {
+                "value": 81.3,
+                "unit": "fl",
+                "reference_range": [
+                    78.0,
+                    97.0
+                ]
+            },
+            "T.C.M.H.": {
+                "value": 26.8,
+                "unit": "pg",
+                "reference_range": [
+                    26.3,
+                    32.8
+                ]
+            },
+            "C.C.M.H.": {
+                "value": 33.0,
+                "unit": "g/dL",
+                "reference_range": [
+                    32.4,
+                    36.3
+                ]
+            },
+            "Poly. neutrophiles": {
+                "value": 3.44,
+                "unit": "Giga/L",
+                "reference_range": [
+                    1.78,
+                    6.95
+                ]
+            },
+            "Poly. éosinophiles": {
+                "value": 0.1,
+                "unit": "Giga/L",
+                "reference_range": [
+                    0.05,
+                    0.63
+                ]
+            },
+            "Poly. basophiles": {
+                "value": 0.03,
+                "unit": "Giga/L",
+                "reference_range": [
+                    null,
+                    0.1
+                ]
+            },
+            "Lymphocytes": {
+                "value": 2.39,
+                "unit": "Giga/L",
+                "reference_range": [
+                    1.24,
+                    3.92
+                ]
+            },
+            "Monocytes": {
+                "value": 0.57,
+                "unit": "Giga/L",
+                "reference_range": [
+                    0.23,
+                    0.77
+                ]
+            },
+            "Protéine C réactive": {
+                "value": 2.4,
+                "unit": "mg/l",
+                "reference_range": [
+                    null,
+                    5
+                ]
+            },
+            "Sodium": {
+                "value": 139.0,
+                "unit": "mmol/L",
+                "reference_range": [
+                    136,
+                    145
+                ]
+            },
+            "Potassium": {
+                "value": 4.6,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.5,
+                    5.1
+                ]
+            },
+            "Albumine": {
+                "value": 42.0,
+                "unit": "g/L",
+                "reference_range": [
+                    35,
+                    50
+                ]
+            },
+            "Calcium": {
+                "value": 2.47,
+                "unit": "mmol/L",
+                "reference_range": [
+                    2.1,
+                    2.55
+                ]
+            },
+            "Calcium corrigé": {
+                "value": 2.42,
+                "unit": "mmol/L",
+                "reference_range": [
+                    2.1,
+                    2.55
+                ]
+            },
+            "Créatinine": {
+                "value": 91.0,
+                "unit": "μmol/L",
+                "reference_range": [
+                    64,
+                    104
+                ]
+            },
+            "DFG selon l'équation CKD-EPI": {
+                "value": 94.0,
+                "unit": "ml/mn/1.73m²",
+                "reference_range": [
+                    60,
+                    null
+                ]
+            },
+            "Transaminase ASAT (S.G.O.T)": {
+                "value": 38.0,
+                "unit": "U/L",
+                "reference_range": [
+                    5,
+                    34
+                ]
+            },
+            "Transaminase ALAT (S.G.P.T)": {
+                "value": 85.0,
+                "unit": "U/L",
+                "reference_range": [
+                    null,
+                    55
+                ]
+            },
+            "Phosphatases alcalines": {
+                "value": 57.0,
+                "unit": "U/L",
+                "reference_range": [
+                    40,
+                    150
+                ]
+            },
+            "GGT(gamma-glutamyl-transférase)": {
+                "value": 27.0,
+                "unit": "UI/L",
+                "reference_range": [
+                    12,
+                    64
+                ]
+            },
+            "Glycémie à jeun": {
+                "value": 4.95,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.9,
+                    6.1
+                ]
+            },
+            "Cholestérol total": {
+                "value": 5.29,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    5.18
+                ]
+            },
+            "Cholestérol H.D.L.": {
+                "value": 1.0,
+                "unit": "mmol/L",
+                "reference_range": [
+                    1.04,
+                    null
+                ]
+            },
+            "Cholestérol L.D.L.": {
+                "value": 3.12,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Triglycérides": {
+                "value": 2.58,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    1.7
+                ]
+            },
+            "Leucocytes": {
+                "value": 6.53,
+                "unit": "Giga/L",
+                "reference_range": [
+                    4.05,
+                    11.0
+                ]
+            },
+            "Plaquettes": {
+                "value": 254.0,
+                "unit": "Giga/L",
+                "reference_range": [
+                    161,
+                    398
+                ]
+            }
+        }
+    },
+    {
+        "date": "2023-11-18",
+        "tests": {
+            "Sodium": {
+                "value": 139.0,
+                "unit": "mmol/L",
+                "reference_range": [
+                    136,
+                    145
+                ]
+            },
+            "Potassium": {
+                "value": 4.6,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.5,
+                    5.1
+                ]
+            },
+            "Créatinine": {
+                "value": 87.0,
+                "unit": "μmol/L",
+                "reference_range": [
+                    64,
+                    104
+                ]
+            },
+            "DFG selon l'équation CKD-EPI": {
+                "value": 100.0,
+                "unit": "ml/mn/1.73m²",
+                "reference_range": [
+                    60,
+                    null
+                ]
+            },
+            "Transaminase ASAT (S.G.O.T)": {
+                "value": 42.0,
+                "unit": "U/L",
+                "reference_range": [
+                    5,
+                    34
+                ]
+            },
+            "Transaminase ALAT (S.G.P.T)": {
+                "value": 71.0,
+                "unit": "U/L",
+                "reference_range": [
+                    null,
+                    55
+                ]
+            },
+            "Phosphatases alcalines": {
+                "value": 71.0,
+                "unit": "U/L",
+                "reference_range": [
+                    40,
+                    150
+                ]
+            },
+            "GGT(gamma-glutamyl-transférase)": {
+                "value": 45.0,
+                "unit": "UI/L",
+                "reference_range": [
+                    12,
+                    64
+                ]
+            },
+            "Cholestérol total": {
+                "value": 4.98,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    5.18
+                ]
+            },
+            "Cholestérol H.D.L.": {
+                "value": 1.01,
+                "unit": "mmol/L",
+                "reference_range": [
+                    1.04,
+                    null
+                ]
+            },
+            "Cholestérol L.D.L.": {
+                "value": 3.22,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Triglycérides": {
+                "value": 1.66,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    1.7
+                ]
+            }
+        }
+    },
+    {
+        "date": "2024-02-17",
+        "tests": {
+            "Hématies": {
+                "value": 5.4,
+                "unit": "Tera/L",
+                "reference_range": [
+                    4.25,
+                    5.79
+                ]
+            },
+            "Hémoglobine": {
+                "value": 14.1,
+                "unit": "g/dL",
+                "reference_range": [
+                    13.4,
+                    16.7
+                ]
+            },
+            "Hématocrite": {
+                "value": 44.3,
+                "unit": "%",
+                "reference_range": [
+                    39.2,
+                    48.6
+                ]
+            },
+            "V.G.M.": {
+                "value": 82.0,
+                "unit": "fl",
+                "reference_range": [
+                    78.0,
+                    97.0
+                ]
+            },
+            "T.C.M.H.": {
+                "value": 26.1,
+                "unit": "pg",
+                "reference_range": [
+                    26.3,
+                    32.8
+                ]
+            },
+            "C.C.M.H.": {
+                "value": 31.8,
+                "unit": "g/dL",
+                "reference_range": [
+                    32.4,
+                    36.3
+                ]
+            },
+            "Leucocytes": {
+                "value": 5.11,
+                "unit": "Giga/L",
+                "reference_range": [
+                    4.05,
+                    11.0
+                ]
+            },
+            "Poly. neutrophiles": {
+                "value": 2.56,
+                "unit": "Giga/L",
+                "reference_range": [
+                    1.78,
+                    6.95
+                ]
+            },
+            "Poly. éosinophiles": {
+                "value": 0.09,
+                "unit": "Giga/L",
+                "reference_range": [
+                    0.05,
+                    0.63
+                ]
+            },
+            "Poly. basophiles": {
+                "value": 0.02,
+                "unit": "Giga/L",
+                "reference_range": [
+                    null,
+                    0.1
+                ]
+            },
+            "Lymphocytes": {
+                "value": 2.05,
+                "unit": "Giga/L",
+                "reference_range": [
+                    1.24,
+                    3.92
+                ]
+            },
+            "Monocytes": {
+                "value": 0.39,
+                "unit": "Giga/L",
+                "reference_range": [
+                    0.23,
+                    0.77
+                ]
+            },
+            "Plaquettes": {
+                "value": 249.0,
+                "unit": "Giga/L",
+                "reference_range": [
+                    161,
+                    398
+                ]
+            },
+            "Protéine C réactive": {
+                "value": 0.0,
+                "unit": "mg/l",
+                "reference_range": [
+                    null,
+                    5
+                ]
+            },
+            "Sodium": {
+                "value": 138.0,
+                "unit": "mmol/L",
+                "reference_range": [
+                    136,
+                    145
+                ]
+            },
+            "Potassium": {
+                "value": 4.1,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.5,
+                    5.1
+                ]
+            },
+            "Créatinine": {
+                "value": 79.0,
+                "unit": "μmol/L",
+                "reference_range": [
+                    64,
+                    104
+                ]
+            },
+            "DFG selon l'équation CKD-EPI": {
+                "value": 111.0,
+                "unit": "ml/mn/1.73m²",
+                "reference_range": [
+                    60,
+                    null
+                ]
+            },
+            "Transaminase ASAT (S.G.O.T)": {
+                "value": 32.0,
+                "unit": "U/L",
+                "reference_range": [
+                    5,
+                    34
+                ]
+            },
+            "Transaminase ALAT (S.G.P.T)": {
+                "value": 65.0,
+                "unit": "U/L",
+                "reference_range": [
+                    null,
+                    55
+                ]
+            },
+            "Phosphatases alcalines": {
+                "value": 65.0,
+                "unit": "U/L",
+                "reference_range": [
+                    40,
+                    150
+                ]
+            },
+            "GGT(gamma-glutamyl-transférase)": {
+                "value": 47.0,
+                "unit": "UI/L",
+                "reference_range": [
+                    12,
+                    64
+                ]
+            },
+            "Cholestérol total": {
+                "value": 4.93,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    5.18
+                ]
+            },
+            "Cholestérol H.D.L.": {
+                "value": 0.99,
+                "unit": "mmol/L",
+                "reference_range": [
+                    1.04,
+                    null
+                ]
+            },
+            "Cholestérol L.D.L.": {
+                "value": 2.81,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Triglycérides": {
+                "value": 2.48,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    1.7
+                ]
+            }
+        }
+    },
+    {
+        "date": "2024-05-24",
+        "tests": {
+            "Sodium": {
+                "value": 141.0,
+                "unit": "mmol/L",
+                "reference_range": [
+                    136,
+                    145
+                ]
+            },
+            "Potassium": {
+                "value": 4.2,
+                "unit": "mmol/L",
+                "reference_range": [
+                    3.5,
+                    5.1
+                ]
+            },
+            "Créatinine": {
+                "value": 86.0,
+                "unit": "μmol/L",
+                "reference_range": [
+                    64,
+                    104
+                ]
+            },
+            "DFG selon l'équation CKD-EPI": {
+                "value": 102.0,
+                "unit": "ml/mn/1.73m²",
+                "reference_range": [
+                    60,
+                    null
+                ]
+            },
+            "Cholestérol total": {
+                "value": 4.31,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    5.18
+                ]
+            },
+            "Cholestérol H.D.L.": {
+                "value": 0.87,
+                "unit": "mmol/L",
+                "reference_range": [
+                    1.04,
+                    null
+                ]
+            },
+            "Cholestérol L.D.L.": {
+                "value": 2.52,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    null
+                ]
+            },
+            "Triglycérides": {
+                "value": 2.02,
+                "unit": "mmol/L",
+                "reference_range": [
+                    null,
+                    1.7
+                ]
+            }
+        }
+    }
+]

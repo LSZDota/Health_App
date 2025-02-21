@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withings Data Visualization</title>
+</head>
+<body>
+    <h1>Withings Data Visualization</h1>
+    <select id="measure-select">
+        <option value="1,Weight (kg)">Weight (kg)</option>
+        <option value="6,Fat Ratio (%)">Fat Ratio (%)</option>
+        <option value="5,Fat-Free Mass (kg)">Fat-Free Mass (kg)</option>
+        <option value="8,Fat Mass Weight (kg)">Fat Mass Weight (kg)</option>
+        <option value="76,Muscle Mass (kg)">Muscle Mass (kg)</option>
+        <option value="77,Hydration (kg)">Hydration (kg)</option>
+        <option value="88,Bone Mass (kg)">Bone Mass (kg)</option>
+        <option value="170,Visceral Fat Level">Visceral Fat Level</option>
+        <option value="226,Body Score (units)">Body Score (units)</option>
+    </select>
+    <button onclick="fetchData()">Plot Data</button>
+    <div id="plot-container"></div>
+
+    <script>
+        function fetchData() {
+            const measure = document.getElementById('measure-select').value;
+            const [measureType, measureName] = measure.split(',');
+            fetch(`/plot/${measureType}/${measureName}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        const img = document.createElement('img');
+                        img.src = `data:image/png;base64,${data.plot_url}`;
+                        document.getElementById('plot-container').innerHTML = '';
+                        document.getElementById('plot-container').appendChild(img);
+                    } else {
+                        alert(data.message);
+                    }
+                });
+        }
+    </script>
+</body>
+</html>
